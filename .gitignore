@@ -1,0 +1,49 @@
+# Secrets and Local Environment
+.env
+.env.backup
+.env.production
+*.env
+cookies.txt
+*.log
+
+
+# Dependencies
+/node_modules
+/vendor
+
+# Storage and Logs
+/storage/*.key
+/storage/pail
+/storage/logs/*
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/framework/testing/*
+!/storage/logs/.gitkeep
+!/storage/framework/.gitkeep
+!/storage/framework/cache/.gitkeep
+!/storage/framework/sessions/.gitkeep
+!/storage/framework/views/.gitkeep
+
+# Testing and Coverage
+.phpunit.result.cache
+/.phpunit.cache
+
+# Deployment & Build Temp
+.vercel
+/public/hot
+/public/storage
+
+# IDEs & System Files
+.DS_Store
+Thumbs.db
+/.idea
+/.vscode
+/.cursor/
+/.zed
+/.nova
+/.codex
+Homestead.json
+Homestead.yaml
+_ide_helper.php
+.phpactor.json
